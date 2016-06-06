@@ -1,0 +1,22 @@
+.container{
+	max-width: 100%;
+	height: 650px;
+	border: solid 6px green;
+}
+
+.title{
+	color: blue;
+	text-align: center;
+}
+
+.timeContainer{
+	/* border: solid 3px pink; */
+}
+
+.minInput{
+	/* width: 10%; */	
+}
+
+.secInput{
+	/* width: 10%; */
+}

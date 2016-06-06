@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Rock Paper Scissors</title>
+		<link rel=stylesheet type=text/css href=./styles/style.css>
+	</head>
+	<body>
+		<div class="container">
+			
+			<h1 class="title">Rock Paper Scissors</h1>
+
+			<div class="timeContainer">
+				<form class="timeInput">
+					Minutes: <input class="minInput" type="text"  value="0" size="6" maxlength="3" ></input> 
+					Seconds: <input class="secInput" type="text" value="0" size="6" maxlength="3" ></input>
+					</BR>
+					<input class="start" type="button" value="START"></input>
+					<input class="reset" type="button" value="RESET"></input>
+				</form></BR>
+				<div class="countdownTimer">
+					Countdown Timer:
+				</div>
+			</div></BR>	
+
+			<div class="user">
+
+				<div class="userChoice">User Choice:</div>  
+
+				<div class="buttonContainer">
+					<input class="rock" type="button" size="6"  value="Rock"></input>
+					<input class="paper" type="button" size="6"value="Paper"></input>
+					<input class="scissors" type="button" size="6" value="Scissors"></input>
+				</div>
+
+			</div></BR>
+
+			<div class="bot">
+				
+				<div class="botChoice">Bot Choice:</div>
+			</div></BR>
+
+
+			<div class="roundWinner"></div></BR>
+
+			<div class="scoreBoard">
+				<div class="userScore" >User Score:</div>
+
+				<div>Win</div>
+					<input class="winScore" type="text" size="6"></input>
+
+				<div>Lose</div>
+					<input class="loseScore" type="text" size="6"></input>
+
+				<div>Draw</div>
+					<input class="drawScore" type="text" size="6"></input>
+			</div>
+
+			
+		</div>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+		<script type=text/javascript src=./js/script.js></script>
+	</body>
+	</html>
+
+
